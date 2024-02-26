@@ -28,42 +28,45 @@ export const NAV_ITEMS = [
 export const SOCIAL_LINKS = [
   {
     name: 'GitHub',
-    url: 'https://github.com/SeanOliver',
+    url: 'https://github.com/peterbull',
     icon: <GitHubLogoIcon />,
   },
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/theseanoliver/',
+    url: 'https://www.linkedin.com/in/petercbull',
     icon: <LinkedInLogoIcon />,
   },
 ]
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Audioflare',
-    url: 'https://audioflare.seanoliver/dev/',
-    github: 'https://github.com/seanoliver/audioflare',
+    name: 'Bohdi-cast',
+    url: 'https://www.peterbull.org',
+    github: 'https://github.com/peterbull/bodhi-cast',
     description:
-      'An all-in-one AI audio playground using Cloudflare AI Workers to transcribe, analyze, summarize, and translate any audio file.',
-    image: '/projects/audioflare.png',
+      'A surf forecasting app with worldwide swell forecasts, visualizations, and up to the minute weather conditions',
+    image: '/projects/swell-vis.png',
     tags: [
-      'Cloudflare',
+      'Airflow',
+      'Kafka',
+      'FastAPI',
       'TypeScript',
+      'PostGIS',
       'React',
-      'Whisper',
+      'Docker',
       'Tailwind CSS',
-      'Cloudflare AI Workers',
+      'Cloudflare',
     ],
   },
 ]
 
 export const EXPERIENCES = [
   {
-    title: 'Software Engineer',
-    company: 'Gamma',
-    logo: '/logos/gamma.png',
-    date: '2023 - Present',
+    title: 'BIM Manager & Computational Design Lead',
+    company: 'Vestige Design Studio',
+    logo: '/logos/birdred.png',
+    date: '2020 - Present',
     description:
-      'Building a new platform that helps people share knowledge in ways that engage, using AI-powered, interactive, multimodal docs that eliminate the dread of a blank page.',
+      'Pioneering sustainable and innovative design through computational strategies and BIM, by crafting advanced design tools, streamlining documentation workflows, and harnessing programming expertise.',
   },
 ]
