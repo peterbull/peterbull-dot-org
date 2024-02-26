@@ -1,12 +1,12 @@
-import { ImageResponse } from 'next/og'
+import { ImageResponse } from '@vercel/og'
 
 export const runtime = 'edge'
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
-  const title = searchParams.get('title') || 'sean oliver [ dot ] dev'
+  const title = searchParams.get('title') || 'peter bull'
 
-  const response = await fetch('http://localhost:3000/profile.jpeg')
+  const response = await fetch('http://localhost:3000/peter-image.jpg')
   const buffer = await response.arrayBuffer()
   const base64 = Buffer.from(buffer).toString('base64')
   const imageSrc = `data:image/jpeg;base64,${base64}`
