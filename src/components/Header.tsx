@@ -31,7 +31,7 @@ export default function Header({
       </div>
       {notBlogPost && (
         <Section title='Home'>
-          <h4 className='font-medium'>Sean Oliver</h4>
+          <h4 className='font-medium'>Peter Bull</h4>
           <p className='text-muted-foreground'>Software Engineer</p>
         </Section>
       )}

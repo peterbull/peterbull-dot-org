@@ -28,7 +28,7 @@ export default function Nav(): JSX.Element {
     <div className='flex items-center'>
       <Link href='/'>
         <Avatar className='mr-4'>
-          <AvatarImage src='./profile.jpeg' />
+          <AvatarImage src='./peter-image.jpg' />
           <AvatarFallback>SO</AvatarFallback>
         </Avatar>
       </Link>
