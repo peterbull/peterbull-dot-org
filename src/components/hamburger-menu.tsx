@@ -27,7 +27,7 @@ export function HamburgerMenu() {
               key={`${item.name}-${idx}`}
               name={item.name}
               url={item.url}
-              icon={item.icon}
+              icon={item.icon} // Fix: Add the 'icon' property to the type of 'NAV_ITEMS'
               dropdown
               scroll={!item.icon}
             />

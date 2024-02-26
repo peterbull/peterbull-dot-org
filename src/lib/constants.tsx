@@ -1,4 +1,10 @@
-import { GitHubLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons'
+import {
+  GitHubLogoIcon,
+  LinkedInLogoIcon,
+  TwitterLogoIcon,
+  InstagramLogoIcon,
+  ArrowTopRightIcon,
+} from '@radix-ui/react-icons'
 import { Project } from '@/lib/types'
 
 export const NAV_ITEMS = [
@@ -16,6 +22,12 @@ export const NAV_ITEMS = [
     name: 'Experience',
     url: '#experience',
     pageLink: '/experience',
+  },
+  {
+    name: 'Bodhi-cast',
+    url: 'https://www.bodhicast.com',
+    pageLink: 'https://www.bodhicast.com',
+    icon: <ArrowTopRightIcon className='ml-1 mt-1 inline w-4 h-4' />,
   },
 ]
 
