@@ -52,6 +52,15 @@ export const PROJECTS: Project[] = [
       'Cloudflare',
     ],
   },
+  {
+    name: 'Natural Drainage and Rainfall Analysis',
+    url: 'https://github.com/peterbull/grasshopper_scripts',
+    github: 'https://github.com/peterbull/grasshopper_scripts',
+    description:
+      'Finding paths of most likely travel for rainfall using Grasshopper and Python',
+    image: '/projects/rain-analysis.gif',
+    tags: ['Python', 'Grasshopper', 'Rhino'],
+  },
 ]
 
 export const EXPERIENCES = [
