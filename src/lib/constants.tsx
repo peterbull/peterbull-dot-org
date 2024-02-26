@@ -56,10 +56,35 @@ export const PROJECTS: Project[] = [
     name: 'Natural Drainage and Rainfall Analysis',
     url: 'https://github.com/peterbull/grasshopper_scripts',
     github: 'https://github.com/peterbull/grasshopper_scripts',
-    description:
-      'Finding paths of most likely travel for rainfall using Grasshopper and Python',
+    description: 'Finding Likely Rainfall Drainage Paths',
     image: '/projects/rain-analysis.gif',
     tags: ['Python', 'Grasshopper', 'Rhino'],
+  },
+  {
+    name: 'Pantry Dash',
+    url: 'https://github.com/peterbull/pantry-dash',
+    github: 'https://github.com/peterbull/pantry-dash',
+    description: 'A Dashboard to Monitor Pantry Staples',
+    image: '/projects/pantry_dash.png',
+    tags: ['React', 'Node', 'Express', 'Docker', 'Postgres'],
+  },
+  {
+    name: 'Platform Agnostic BIM Data Management',
+    url: 'https://github.com/peterbull/grasshopper_scripts',
+    github: 'https://github.com/peterbull/grasshopper_scripts',
+    description:
+      'Manage the round trip data stream between revit and rhino utilizing custom JSON schemas to ensure interoperability and no loss of BIM data',
+    image: '/projects/data-interop.png',
+    tags: ['Python', 'Javascript', 'Speckle', 'Grasshopper'],
+  },
+  {
+    name: 'Noise reduction, cleaning, formatting, joining of public Lidar data',
+    url: 'https://github.com/peterbull/csv-to-xyz',
+    github: 'https://github.com/peterbull/csv-to-xyz',
+    description:
+      'Using pandas to clean noise points and reformat tiled point cloud datasets. Joining datasets to span larger areas of terrain. Eventually moved points to postGIS database for future use.',
+    image: '/projects/topo-context-4.jpg',
+    tags: ['Python', 'Grasshopper', 'postGIS', 'Pandas'],
   },
 ]
 
