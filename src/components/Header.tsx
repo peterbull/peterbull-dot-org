@@ -32,7 +32,9 @@ export default function Header({
       {notBlogPost && (
         <Section title='Home'>
           <h4 className='font-medium'>Peter Bull</h4>
-          <p className='text-muted-foreground'>Software Engineer</p>
+          <p className='text-muted-foreground'>
+            Software Engineering / BIM / Computational Design
+          </p>
         </Section>
       )}
     </>

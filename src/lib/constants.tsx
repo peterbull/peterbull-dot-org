@@ -1,10 +1,4 @@
-import {
-  GitHubLogoIcon,
-  LinkedInLogoIcon,
-  TwitterLogoIcon,
-  InstagramLogoIcon,
-  ArrowTopRightIcon,
-} from '@radix-ui/react-icons'
+import { GitHubLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons'
 import { Project } from '@/lib/types'
 
 export const NAV_ITEMS = [
@@ -68,5 +62,29 @@ export const EXPERIENCES = [
     date: '2020 - Present',
     description:
       'Pioneering sustainable and innovative design through computational strategies and BIM, by crafting advanced design tools, streamlining documentation workflows, and harnessing programming expertise.',
+  },
+  {
+    title: 'Owner',
+    company: 'Bull Custom Woodworking',
+    logo: '',
+    date: '2016 - Present',
+    description:
+      'Founded Bull Custom Woodworking, blending artistry with technology through custom design/build projects, leveraging Rhino 3D and CNC programming to deliver unique, high-quality woodwork.',
+  },
+  {
+    title: 'Area Operations Manager',
+    company: 'Zoomer',
+    logo: '/logos/zoomer.jpg',
+    date: '2014 - 2016',
+    description:
+      'Streamlined operations and fostered growth as Area Operations Manager at Zoomer, a Y Combinator-backed delivery startup, by implementing efficient processes and leveraging JavaScript among other skills to enhance performance.',
+  },
+  {
+    title: 'Assistant Operations Manager',
+    company: 'HourWise',
+    logo: '/logos/hourwise.jpg',
+    date: '2012 - 2014',
+    description:
+      'As Assistant Operations Manager at HourWise, a construction startup for mid-level contractors, I drove operational improvements and new business development, applying keen operational management strategies to support startup growth and scalability.',
   },
 ]
