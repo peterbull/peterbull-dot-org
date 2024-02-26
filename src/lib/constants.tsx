@@ -47,7 +47,7 @@ export const SOCIAL_LINKS = [
 export const PROJECTS: Project[] = [
   {
     name: 'Bohdi-cast',
-    url: 'https://www.peterbull.org',
+    url: 'https://www.bodhicast.com',
     github: 'https://github.com/peterbull/bodhi-cast',
     description:
       'A surf forecasting app with worldwide swell forecasts, visualizations, and up to the minute weather conditions',
