@@ -16,8 +16,8 @@ export default function About(): JSX.Element {
           modern tech frameworks (React, FastAPI, Airflow, Kafka).
         </p>
         <p className='leading-7 [&:not(:first-child)]:mt-6'>
-          Outside work, I find balance in surfing, gardening with my partner
-          (just wrapping up their PhD in Machine Learning and Intentionality),
+          Outside work, I find balance in surfing, gardening with my girlfriend
+          (just wrapping up her PhD in Machine Learning and Intentionality),
           lifting weights, and enjoying my role as the resident 'really good
           everyday chef'
         </p>
