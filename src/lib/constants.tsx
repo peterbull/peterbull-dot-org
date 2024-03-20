@@ -46,6 +46,15 @@ export const SOCIAL_LINKS = [
 
 export const PROJECTS: Project[] = [
   {
+    name: 'Contract Queue',
+    url: 'https://www.contractqueue.com',
+    github: 'https://www.github.com/peterbull/contract-queue',
+    description:
+      'App for analyzing federal procurement notices using vector stores, LLMs, and airflow.',
+    image: '/projects/contractqueue.png',
+    tags: ['Airflow', 'PGvector', 'Anthropic', 'FastAPI', 'Streamlit'],
+  },
+  {
     name: 'Bohdi-cast',
     url: 'https://www.bodhicast.com',
     github: 'https://github.com/peterbull/bodhi-cast',
